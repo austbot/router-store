@@ -1,7 +1,7 @@
 import { NgModule, APP_BOOTSTRAP_LISTENER, OpaqueToken } from '@angular/core';
 import { Location } from '@angular/common';
 import { Router } from '@angular/router';
-import { Dispatcher, Store, Action } from '@ngrx/store';
+import { Store, Action } from '@ngrx/store';
 import { Observable } from 'rxjs/Observable';
 
 import {
